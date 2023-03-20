@@ -9,7 +9,7 @@ function palindrome(string) {
     for (let i = 0; i<len; i++) {
 
         // check if first and last string are same
-        if (string[i] !== string[len - i]) {
+        if (string[i] !== string[len -1- i]) {
             return false;
         }
     }
