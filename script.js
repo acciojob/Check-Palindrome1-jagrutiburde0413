@@ -2,7 +2,7 @@
 
 // program to check if the string is palindrome or not
 
-function checkPalindrome(string) {
+function palindrome(string) {
 
     // convert string to an array
     const arrayValues = string.split('');
