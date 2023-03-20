@@ -11,6 +11,6 @@ function palindrome(string){
             return 'false';
         }
     }
-    return 'false';
+    return 'true';
 }
 module.exports = palindrome
