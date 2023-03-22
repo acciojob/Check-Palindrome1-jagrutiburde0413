@@ -3,6 +3,7 @@
 function palindrome(string) {
 
     // find the length of a string
+	string = string.toLowerCase();
     const len = string.length;
 
     // loop through half of the string
